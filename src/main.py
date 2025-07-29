@@ -13,6 +13,7 @@ def main():
     print(f"Hello from test! Current time: {current_time}")
     print(f"Python version: {__import__('sys').version.split()[0]}")
     print(f"Operating System: {platform.system()}")
+    print(f"Machine: {platform.machine()}")
     print("=" * 50)
 
 
