@@ -4,6 +4,7 @@ test - Main module
 """
 from datetime import datetime
 import platform
+import os
 
 
 def main():
@@ -15,6 +16,7 @@ def main():
     print(f"Operating System: {platform.system()}")
     print(f"Machine: {platform.machine()}")
     print(f"Platform: {platform.platform()}")
+    print(f"Process ID: {os.getpid()}")
     print("=" * 50)
 
 
