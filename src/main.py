@@ -19,6 +19,7 @@ def main():
     print(f"Process ID: {os.getpid()}")
     print(f"CPU Count: {os.cpu_count()}")
     print(f"User: {os.environ.get('USER', 'Unknown')}")
+    print(f"Home Directory: {os.path.expanduser('~')}")
     print("=" * 50)
 
 
