@@ -9,9 +9,11 @@ import platform
 def main():
     """Main function"""
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print("=" * 50)
     print(f"Hello from test! Current time: {current_time}")
     print(f"Python version: {__import__('sys').version.split()[0]}")
     print(f"Operating System: {platform.system()}")
+    print("=" * 50)
 
 
 if __name__ == "__main__":
