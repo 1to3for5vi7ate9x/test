@@ -17,6 +17,7 @@ def main():
     print(f"Machine: {platform.machine()}")
     print(f"Platform: {platform.platform()}")
     print(f"Process ID: {os.getpid()}")
+    print(f"CPU Count: {os.cpu_count()}")
     print("=" * 50)
 
 
