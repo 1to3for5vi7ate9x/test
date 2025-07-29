@@ -14,6 +14,7 @@ def main():
     print(f"Python version: {__import__('sys').version.split()[0]}")
     print(f"Operating System: {platform.system()}")
     print(f"Machine: {platform.machine()}")
+    print(f"Platform: {platform.platform()}")
     print("=" * 50)
 
 
